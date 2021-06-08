@@ -1,8 +1,10 @@
 #include <stdio.h>
 void main(void)
 {
-	for (int a = 1; a <= 10; ++a)
+	int sum = 0;
+	for (int a = 1; a <= 10; a++)
 	{
-		printf("%d\n", a);
+		sum += a;
 	}
+	printf("%d", sum);
 }
