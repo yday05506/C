@@ -34,7 +34,7 @@ void main(void)
 	// 무한반복
 	while (1)
 	{
-		//엔터키를 눌러서 진행시켜
+		//엔터키를 눌러서 진행시킴
 		getchar();
 
 		/* 던짐 */
@@ -78,6 +78,12 @@ void main(void)
 			position = 0;
 			printf("현재위치 : %d, 현재금액 : %d \n\n", position, money);
 			break;
+
+		case 60 :
+			printf("끝 점에 있을 때, 금액이 2배가 됩니다.");
+			money *= 2;
+			printf("현재위치 : %d, 현재금액 : %d \n\n", position, money);
+			break;
 		}
 
 		// 범위를 지정해야 하는 조건에는 switch문이 불가능하다
@@ -86,6 +92,7 @@ void main(void)
 			printf("축하합니다. 목적지에 도착하셨습니다.\n");
 			break;
 		}
+
 	}
 
 }
