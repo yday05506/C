@@ -20,7 +20,7 @@ void main(void)
 	scanf("%d", &CA_score);
 	cal_grade(CA_score);
 
-	avg = average(C_score, JAVA_score, CA_score);
+	float avg = average(C_score, JAVA_score, CA_score);
 	printf("세 과목의 평균은 %f입니다.\n", avg);
 }
 
