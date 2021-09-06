@@ -3,10 +3,8 @@
 void main(void)
 {
 	char str[20] = "Hello World";
-	char str2[20] = {
-		'H', 'e', 'l', 'l', 'o', ' ',
-		'W', 'o', 'r', 'l', 'd', '\0'
-	};
-	printf("%s\n", str);
-	printf("%s\n", str2);
+	
+	//단순하게 인덱스 값을 직접 계산함
+	for (int i = 0; i < 12; i++)
+		printf("%c", str[i]);
 }
