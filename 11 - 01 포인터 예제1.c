@@ -2,10 +2,10 @@
 
 void main(void)
 {
-	char str[20] = "Hello World";
+	int num = 3;
+	int* ptr = &num;
 
-	//'W' 다음에 null문자를 주어서 문자열을 끊음
-	str[7] = '\0';
-
-	printf("%s\n", str);
+	printf("num안에 들어있는 값 %p\n", num);
+	printf("num의 메모리 주소 값 %p\n", &num);
+	printf("ptr안에 들어있는 값 %p\n", ptr);
 }
