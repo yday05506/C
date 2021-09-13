@@ -8,4 +8,5 @@ void main(void)
 	printf("num안에 들어있는 값 %p\n", num);
 	printf("num의 메모리 주소 값 %p\n", &num);
 	printf("ptr안에 들어있는 값 %p\n", ptr);
+	printf("ptr의 메모리 주소 값 %d\n", &ptr);
 }
